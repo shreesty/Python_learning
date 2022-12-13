@@ -1,4 +1,4 @@
-//////////////
+
 '''
 
 Ask the user to enter a number. Print out the square of the number, but use the sep optional
@@ -12,4 +12,4 @@ print: The square of 5 is 25.
 '''
 
 number= int(input("Enter a number: "))
-print("The square of number is" ,number ** 2)
+print("The square of %d is %d" %(number,number ** 2),sep=" ")
